@@ -11,4 +11,7 @@ execute by running `kawaclip` in your terminal
 Installation is pretty easy. You CAN figure it out yourself but I made a little script.
 
 ```sudo git clone https://github.com/NoMoreSyntaxx/kawaiiclip.git && cd kawaiiclip/installer/ && sudo bash installer.sh```
+# DISCLAIMER:
+For some reason, the config file isn't getting created. To create it, just run the last line of the installer script manually
 
+```sudo echo ">w<\n>////<\n0_0\nqwq\n:3\n;3\nuwu\nX_X" > ~/.config/kawaiiclip/emoticons.txt```

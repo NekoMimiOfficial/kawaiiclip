@@ -10,5 +10,5 @@ execute by running `kawaclip` in your terminal
 # Installation
 Installation is pretty easy. You CAN figure it out yourself but I made a little script.
 
-```git clone https://github.com/NoMoreSyntaxx/kawaiiclip.git && cd installer/ && sudo bash installer.sh```
+```git clone https://github.com/NoMoreSyntaxx/kawaiiclip.git && cd kawaiiclip/installer/ && sudo bash installer.sh```
 

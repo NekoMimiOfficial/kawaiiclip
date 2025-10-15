@@ -1,6 +1,6 @@
 # KawaiiClip  
 An emoticon clipboard with the feature of adding your own custom emoticons!  
-Current version: `v1.0.1`
+Current version: `v1.0.1`  
 
 <img align="center" alt="image" src="./images/showcase.png" />
 

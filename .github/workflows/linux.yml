@@ -1,0 +1,41 @@
+name: "Build on CMAKE for ubuntu 22.04 lts (also supports ubuntu 24.04 lts and higher)"
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      fail-fast: false
+
+      matrix:
+        os: [ubuntu-22.04, ubuntu-22.04-arm]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install C++ dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y cmake g++ build-essential
+
+      - name: Run build script
+        run: |
+          chmod +x ./build/debian.sh
+          ./build/debian.sh
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-nightly-${{ matrix.os }}
+          path: build/output/
+

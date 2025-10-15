@@ -1,0 +1,10 @@
+Package: kawaiiclip
+Version: 1.0.0
+Architecture: amd64
+Installed-Size: 80
+Maintainer: NekoMimiOfficial <nekomimi@tilde.team>
+Section: utils
+Depends: wl-clipboard
+Priority: optional
+Homepage: http://nekomimi.tilde.team
+Description: Emoticons accessed quick from the CLI

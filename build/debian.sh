@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-VERSION="1.0.0"
+VERSION="1.0.1"
 
 mkdir -p ./build/output/kawaiiclip_${VERSION}_amd64/usr/bin/
 mkdir -p ./build/output/kawaiiclip_${VERSION}_amd64/DEBIAN/

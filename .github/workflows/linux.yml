@@ -25,7 +25,6 @@ jobs:
 
       - name: Install C++ dependencies
         run: |
-          sudo apt-get update
           sudo apt-get install -y cmake g++ build-essential
 
       - name: Run build script

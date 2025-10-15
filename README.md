@@ -1,7 +1,7 @@
 # kawaiiclip  
 An emoticon clipboard with the feature of adding your own custom emoticons!  
 
-<img width="1210" height="889" alt="image" src="https://github.com/user-attachments/assets/be69f20b-ecf0-4fcd-9693-36fbdd64fd61" />
+<img align="center" alt="image" src="./images/showcase.png" />
 
 # Usage  
 execute by running `kawaclip` in your terminal  
@@ -17,12 +17,16 @@ The app will prioritize the local list first (`~/.config/kawaiiclip/emoticons.tx
 Install the latest deb file from the releases or via github actions  
 
 ## Generic linux/UNIX installation  
-```curl -fsSL https://raw.githubusercontent.com/NekoMimiOfficial/kawaiiclip/refs/heads/main/install/linux_generic.sh | bash```  
+```sh
+curl -fsSL https://raw.githubusercontent.com/NekoMimiOfficial/kawaiiclip/refs/heads/main/install/linux_generic.sh | bash
+```  
 
 # Building  
 ## Ubuntu and Debian  
 Building MUST be done from the root of the repository:  
-```./build/debian.sh```  
+```sh
+./build/debian.sh
+```  
 Build output files found at `build/output/`  
 
 # DISCLAIMER:  

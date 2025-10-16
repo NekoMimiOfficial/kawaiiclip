@@ -19,7 +19,7 @@ Install the latest deb file from the releases or via github actions
 
 ## Generic linux/UNIX installation  
 ```sh
-curl -fsSL https://raw.githubusercontent.com/NekoMimiOfficial/kawaiiclip/refs/heads/main/install/linux_generic.sh | bash
+curl -fsSL https://raw.githubusercontent.com/NekoMimiOfficial/kawaiiclip/refs/heads/main/install/remote.sh | bash
 ```  
 
 # Building  
